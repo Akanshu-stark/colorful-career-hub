@@ -8,7 +8,7 @@ import {
   Layers, 
   Server, 
   Settings, 
-  Tool
+  Wrench 
 } from 'lucide-react';
 
 export default function Skills() {
@@ -58,7 +58,7 @@ export default function Skills() {
       ]
     },
     {
-      icon: <Tool className="w-6 h-6 text-accent" />,
+      icon: <Wrench className="w-6 h-6 text-accent" />,
       title: "Tools",
       skills: [
         { name: "VS Code", level: 95 },
