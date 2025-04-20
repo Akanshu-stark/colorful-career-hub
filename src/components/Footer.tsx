@@ -16,8 +16,8 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h3 className="text-2xl font-heading font-bold gradient-heading mb-2">Your Name</h3>
-            <p className="text-muted-foreground">Full Stack Developer</p>
+            <h3 className="text-2xl font-heading font-bold gradient-heading mb-2">Akanshu Rana</h3>
+            <p className="text-muted-foreground">Data Engineer</p>
           </div>
           
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
@@ -31,7 +31,7 @@ export default function Footer() {
             
             <div className="flex gap-4 mt-4 md:mt-0">
               <a 
-                href="https://github.com" 
+                href="https://github.com/Akanshu-stark/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 text-muted-foreground hover:text-foreground transition-colors"
@@ -40,7 +40,7 @@ export default function Footer() {
                 <Github size={20} />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/akanshu-rana/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 text-muted-foreground hover:text-foreground transition-colors"
@@ -49,7 +49,7 @@ export default function Footer() {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="https://twitter.com" 
+                href="https://x.com/akanshu_rana" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 text-muted-foreground hover:text-foreground transition-colors"
@@ -58,7 +58,7 @@ export default function Footer() {
                 <Twitter size={20} />
               </a>
               <a 
-                href="mailto:your.email@example.com" 
+                href="mailto:akanshu.rana2000@gmail.com" 
                 className="p-2 text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Email"
               >
@@ -70,7 +70,7 @@ export default function Footer() {
         
         <div className="border-t mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+            &copy; {new Date().getFullYear()} Akanshu Rana. All rights reserved.
           </p>
           
           <Button 

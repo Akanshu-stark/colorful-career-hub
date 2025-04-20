@@ -12,45 +12,50 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 const experiences = [
   {
     id: "company1",
-    company: "Tech Innovators Inc.",
-    position: "Senior Developer",
-    period: "Jan 2020 - Present",
-    location: "San Francisco, CA",
+    company: "Infosys Ltd.",
+    position: "Data Engineer",
+    period: "Nov 2024 - Present",
+    location: "Chandigarh, India ",
     description: [
-      "Led a team of 5 developers in building a scalable e-commerce platform using React and Node.js",
-      "Improved application performance by 40% through code optimization and implementing efficient data fetching strategies",
-      "Collaborated with design team to implement responsive UI components and animations",
-      "Mentored junior developers and conducted code reviews to ensure code quality"
+      "Designed and implemented ETL pipelines using Apache Spark and Azure Data Factory, improving data processing efficiency by 30%.",
+      "Developed data models and optimized SQL queries for large datasets, reducing query execution time by 25%.",
+      "Performed extensive data cleaning on datasets using Azure Data Factory by using different operations, including modifying specific values, handling missing values, and standardizing formats and many more.",
+      "Transformation the data into required format and applied business conditions and generated the output file to share the data using Pyspark and SQL.",
+      "Designed and automated the pipeline to run at scheduled times, ensuring seamless data processing without manual intervention.",
+      "Integrated Azure Databricks notebooks using PySpark, SQL to perform complex analysis using Azure Data Factory.",
+      "Collaborated with cross-functional teams to gather requirements and deliver data solutions that meet business needs.",
     ],
-    technologies: ["React", "Node.js", "MongoDB", "AWS"]
+    technologies: ["Spark", "SQL", "Python", "Azure Data Factory", "Azure Databricks"]
   },
   {
     id: "company2",
-    company: "Digital Solutions Ltd.",
-    position: "Full Stack Developer",
-    period: "Mar 2017 - Dec 2019",
-    location: "Boston, MA",
+    company: "Accenture Solutions Pvt. Ltd.",
+    position: "Associate Software Engineer",
+    period: "Oct 2023 - Nov 2024",
+    location: "Pune, India",
     description: [
-      "Developed and maintained multiple client-facing web applications using Angular and Spring Boot",
-      "Implemented authentication and authorization systems using OAuth 2.0 and JWT",
-      "Created reusable component libraries that reduced development time by 30%",
+      "Developed and updated automated workflows in Salesforce to simplify and accelerate sales processes, improving lead management and customer follow-ups.",
+      "Utilized SQL to write queries that pulled important data from various sources, helping the team analyze sales campaigns and identify potential customers.",
+      "Worked closely with sales, marketing, and IT teams to ensure alignment and effective communication, driving the success of the project.",
+      "Leveraged data analysis to provide actionable insights into the success of sales campaigns and customer trends, improving targeting and strategy.",
       "Participated in Agile development cycles and contributed to product roadmap discussions"
     ],
-    technologies: ["Angular", "Java", "Spring Boot", "PostgreSQL"]
+    technologies: ["Salesforce", "Python", "SQL", "Apex"]
   },
   {
     id: "company3",
-    company: "Web Crafters",
-    position: "Frontend Developer",
-    period: "Jun 2015 - Feb 2017",
-    location: "Chicago, IL",
+    company: "India Today Group",
+    position: "Software Engineer Intern",
+    period: "April 2023 - July 2023",
+    location: "Noida, India",
     description: [
-      "Built responsive websites for clients across various industries",
-      "Transformed design mockups into pixel-perfect web interfaces",
+      "Developed a web application for real-time news updates using React.js and Node.js",
+      "Assisted in building and optimizing the crimetak.in news website by enhancing UI, addressing bugs, and reducing page load latency by 30%, leading to a smoother user experience.",
+      "Improved website security by securing APIs, which increased protection against potential attacks and reduced vulnerability incidents by 40%.",
+      "Collaborated with the design team to create a user-friendly interface and improve user experience",
       "Optimized websites for maximum speed and scalability",
-      "Integrated various third-party APIs for enhanced functionality"
     ],
-    technologies: ["HTML/CSS", "JavaScript", "jQuery", "WordPress"]
+    technologies: ["HTML/CSS", "JavaScript", "React.js", "Node.js", "MongoDB"]
   }
 ];
 
@@ -69,6 +74,7 @@ export default function Experience() {
 
       <div className="max-w-5xl mx-auto">
         <Tabs defaultValue="company1" value={activeTab} onValueChange={setActiveTab}>
+          <div className="sm: pb-14">
           <TabsList className="grid grid-cols-1 md:grid-cols-3 mb-8 bg-transparent">
             {experiences.map((exp) => (
               <TabsTrigger 
@@ -80,6 +86,7 @@ export default function Experience() {
               </TabsTrigger>
             ))}
           </TabsList>
+          </div>
           
           {experiences.map((exp) => (
             <TabsContent key={exp.id} value={exp.id} className="animate-fade-in">

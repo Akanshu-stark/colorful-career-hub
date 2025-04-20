@@ -33,7 +33,7 @@ export default function About() {
         <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
         <div className="h-1 w-20 bg-accent mx-auto rounded-full mb-8"></div>
         <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-          I'm a passionate developer with a strong background in building web applications. 
+          Passionate Data Engineer skilled in building scalable pipelines and delivering data-driven insights. 
           Here's a bit more about who I am and what drives me.
         </p>
       </div>
@@ -42,18 +42,18 @@ export default function About() {
         <div className="flex flex-col justify-center">
           <h3 className="text-2xl font-bold mb-6">My Journey</h3>
           <p className="text-muted-foreground mb-4">
-            I began my programming journey 5 years ago, starting with front-end technologies 
-            and gradually expanding my skills to include back-end development, database management, 
-            and cloud infrastructure.
+            I began my data engineering journey around 1 year ago, 
+            starting with strong fundamentals in programming and gradually 
+            expanding into building robust data pipelines and cloud-based solutions.
           </p>
           <p className="text-muted-foreground mb-4">
-            Throughout my career, I've had the opportunity to work with diverse teams on 
-            projects ranging from e-commerce platforms to enterprise applications, which has 
-            given me a well-rounded perspective on software development.
+            In this time, I've worked with cross-functional teams on data-driven projects using tools
+            like Azure Data Factory, Azure Databricks, PySpark, SQL, and Python. 
+            These experiences have sharpened my ability to design scalable, efficient data workflows.
           </p>
           <p className="text-muted-foreground">
-            I'm driven by the desire to create intuitive, efficient, and accessible 
-            applications that solve real-world problems and enhance user experiences.
+            I'm driven by a passion for turning raw data into meaningful insights 
+            and building reliable systems that support informed decision-making and business growth.
           </p>
         </div>
         <div className="rounded-2xl overflow-hidden h-80 shadow-lg">

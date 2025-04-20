@@ -4,35 +4,42 @@ import { Progress } from '@/components/ui/progress';
 import { Card, CardContent } from '@/components/ui/card';
 import { 
   Database, 
-  Globe, 
-  Layers, 
-  Server, 
-  Settings, 
-  Wrench 
+  Cloud, 
+  Library, 
+  Wrench,
+  Code, 
 } from 'lucide-react';
 
 export default function Skills() {
   const skillCategories = [
     {
-      icon: <Globe className="w-6 h-6 text-accent" />,
-      title: "Frontend",
+      icon: <Code className="w-6 h-6 text-accent" />,
+      title: "Programming Languages",
       skills: [
-        { name: "HTML/CSS", level: 90 },
-        { name: "JavaScript", level: 85 },
-        { name: "React", level: 82 },
-        { name: "TypeScript", level: 78 },
-        { name: "Next.js", level: 75 }
+        { name: "Python", level: 90 },
+        { name: "C++", level: 90 },
+        { name: "SQL", level: 95 },
+        { name: "Unix(Shell Scripting)", level: 85 },
       ]
     },
     {
-      icon: <Server className="w-6 h-6 text-accent" />,
-      title: "Backend",
+      icon: <Library className="w-6 h-6 text-accent" />,
+      title: "Libraries & Frameworks",
       skills: [
-        { name: "Node.js", level: 88 },
-        { name: "Express", level: 85 },
-        { name: "Python", level: 75 },
-        { name: "Java", level: 70 },
-        { name: "PHP", level: 65 }
+        { name: "PySpark", level: 88 },
+        { name: "Pandas", level: 85 },
+        { name: "Hadoop", level: 75 },
+        { name: "Numpy", level: 70 }
+      ]
+    },
+    {
+      icon: <Cloud className="w-6 h-6 text-accent" />,
+      title: "Cloud",
+      skills: [
+        { name: "Azure", level: 95 },
+        { name: "Azure Data Factory", level: 85 },
+        { name: "Azure Databricks", level: 90 },
+        { name: "Azure Synapse", level: 80 },
       ]
     },
     {
@@ -40,21 +47,8 @@ export default function Skills() {
       title: "Databases",
       skills: [
         { name: "MongoDB", level: 85 },
-        { name: "PostgreSQL", level: 80 },
         { name: "MySQL", level: 78 },
         { name: "Firebase", level: 75 },
-        { name: "Redis", level: 65 }
-      ]
-    },
-    {
-      icon: <Layers className="w-6 h-6 text-accent" />,
-      title: "DevOps",
-      skills: [
-        { name: "Git", level: 90 },
-        { name: "Docker", level: 75 },
-        { name: "AWS", level: 72 },
-        { name: "CI/CD", level: 70 },
-        { name: "Kubernetes", level: 60 }
       ]
     },
     {
@@ -62,23 +56,11 @@ export default function Skills() {
       title: "Tools",
       skills: [
         { name: "VS Code", level: 95 },
-        { name: "Figma", level: 80 },
         { name: "Jira", level: 85 },
-        { name: "Postman", level: 90 },
+        { name: "Git", level: 90 },
         { name: "Jenkins", level: 65 }
       ]
     },
-    {
-      icon: <Settings className="w-6 h-6 text-accent" />,
-      title: "Others",
-      skills: [
-        { name: "REST API", level: 90 },
-        { name: "GraphQL", level: 75 },
-        { name: "Testing", level: 80 },
-        { name: "Agile", level: 85 },
-        { name: "UI/UX", level: 70 }
-      ]
-    }
   ];
 
   return (

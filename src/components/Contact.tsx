@@ -40,39 +40,71 @@ export default function Contact() {
     },
   });
 
+  // function onSubmit(values: z.infer<typeof formSchema>) {
+  //   setIsSubmitting(true);
+    
+  //   // Simulate API call
+  //   setTimeout(() => {
+  //     console.log(values);
+  //     setIsSubmitting(false);
+  //     setIsSubmitted(true);
+  //     toast({
+  //       title: "Message sent!",
+  //       description: "Thank you for reaching out. I'll get back to you soon.",
+  //     });
+  //   }, 1500);
+  // }
+
   function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true);
-    
-    // Simulate API call
-    setTimeout(() => {
-      console.log(values);
-      setIsSubmitting(false);
-      setIsSubmitted(true);
-      toast({
-        title: "Message sent!",
-        description: "Thank you for reaching out. I'll get back to you soon.",
+  
+    fetch("https://eobupfskkvcfdk3.m.pipedream.net", {
+      method: "POST",
+      mode: "no-cors", // Bypasses CORS, but limits visibility into the response
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(values),
+    })
+      .then(() => {
+        setIsSubmitting(false);
+        setIsSubmitted(true);
+        toast({
+          title: "Message sent!",
+          description: "Thank you for reaching out. I'll get back to you soon.",
+        });
+      })
+      .catch((error) => {
+        setIsSubmitting(false);
+        console.error("Error submitting form:", error);
+        toast({
+          title: "Submission failed",
+          description: "There was a problem sending your message. Please try again later.",
+          variant: "destructive",
+        });
       });
-    }, 1500);
   }
+  
+  
 
   const contactDetails = [
     {
       icon: <Mail className="w-6 h-6 text-accent" />,
       title: "Email",
-      value: "your.email@example.com",
-      link: "mailto:your.email@example.com"
+      value: "akanshu.rana2000@gmail.com",
+      link: "mailto:akanshu.rana2000@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6 text-accent" />,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      value: "+91 847 787 3233",
+      link: "tel:+918477873233"
     },
     {
       icon: <MapPin className="w-6 h-6 text-accent" />,
       title: "Location",
-      value: "San Francisco, CA",
-      link: "https://maps.google.com"
+      value: "Chandigarh, India",
+      link: "https://shorturl.at/KgZS1" 
     }
   ];
 

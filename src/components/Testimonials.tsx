@@ -8,31 +8,17 @@ import { cn } from '@/lib/utils';
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "Product Manager at TechCorp",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
-    text: "I've had the pleasure of working with this developer on multiple projects, and I'm consistently impressed by their technical skills and problem-solving abilities. They're not only a talented coder but also a great communicator who understands business needs and translates them into effective solutions."
+    name: "Sachin Karale",
+    role: "Associate Manager at Accenture Solutions Ltd.",
+    image: "https://media.licdn.com/dms/image/v2/C4E03AQGGwiqEXgS5pw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1638386566221?e=1750291200&v=beta&t=z3xei7utG2uFQGzp5v2rWm9T7xMfr0MqYB1gGPgnWc0",
+    text: "I've had the pleasure of working with this developer, and I'm consistently impressed by his technical skills and problem-solving abilities. He is not only a talented coder but also a great communicator who understands business needs and translates them into effective solutions."
   },
   {
     id: 2,
-    name: "Michael Chen",
-    role: "CTO at StartupInnovate",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
-    text: "As a technical leader, I value developers who can not only code but also think strategically about project architecture. This developer exceeds expectations in both areas. They built a scalable system that has grown with our company, saving us countless hours and resources. Their attention to detail and commitment to best practices make them an exceptional professional."
-  },
-  {
-    id: 3,
-    name: "Emily Rodriguez",
-    role: "UI/UX Designer at CreativeStudio",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1961&q=80",
-    text: "Collaborating with this developer has been a designer's dream. They have an incredible ability to take design concepts and implement them with pixel-perfect accuracy. Their understanding of both design principles and technical constraints leads to smooth collaborations and outstanding results. I highly recommend them for any project that requires both technical excellence and design sensitivity."
-  },
-  {
-    id: 4,
-    name: "David Thompson",
-    role: "Project Lead at Enterprise Solutions",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-    text: "What sets this developer apart is their ability to handle complex projects with tight deadlines without compromising on quality. They joined our team during a critical phase and quickly became an invaluable asset. Their code is clean, well-documented, and maintainable, which has significantly reduced our technical debt. I would work with them again without hesitation."
+    name: "Praveen Chaudhary",
+    role: "Senior Software Engineer at Info Edge India Ltd.",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQG9e4UBpmRiLA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1693154854633?e=1750291200&v=beta&t=EMsuzXMxYbpxqKVp0NzPMSMPhHlRqgvY2udnaXEFjio",
+    text: "Highly Recommend Akanshu Rana! A top-notch frontend developer with exceptional ML skills. His ability to seamlessly merge ML concepts with frontend projects is impressive. A collaborative team player who delivers high-quality work. An invaluable asset to any team. Hire Akanshu with confidence!"
   }
 ];
 

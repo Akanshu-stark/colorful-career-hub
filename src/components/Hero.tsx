@@ -10,10 +10,10 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1 animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-              Hi, I'm <span className="gradient-heading">Your Name</span>
+              Hi, I'm <span className="gradient-heading">Akanshu Rana</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Full Stack Developer specializing in building exceptional digital experiences.
+            Data Engineer specializing in designing and building robust data pipelines and scalable data solutions.
             </p>
             
             <div className="flex flex-wrap gap-4 mb-8">
@@ -27,7 +27,7 @@ export default function Hero() {
             
             <div className="flex gap-4">
               <a 
-                href="https://github.com" 
+                href="https://github.com/Akanshu-stark/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-secondary/80 hover:bg-secondary p-3 rounded-full transition-colors"
@@ -35,7 +35,7 @@ export default function Hero() {
                 <Github size={20} />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/akanshu-rana/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-secondary/80 hover:bg-secondary p-3 rounded-full transition-colors"
@@ -43,7 +43,7 @@ export default function Hero() {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="mailto:your.email@example.com" 
+                href="mailto:akanshu.rana2000@gmail.com" 
                 className="bg-secondary/80 hover:bg-secondary p-3 rounded-full transition-colors"
               >
                 <Mail size={20} />
@@ -54,7 +54,7 @@ export default function Hero() {
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white shadow-xl animate-scale-in">
               <img 
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" 
+                src="https://media.licdn.com/dms/image/v2/D5603AQGapPSruFey8Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1705633319795?e=1750291200&v=beta&t=6HcTMVMT9OqYv3TmLMWMUdZPsbPOlvuWjjZeTVLSHHY" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />
