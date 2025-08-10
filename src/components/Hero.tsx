@@ -54,7 +54,7 @@ export default function Hero() {
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white shadow-xl animate-scale-in">
               <img 
-                src="https://media.licdn.com/dms/image/v2/D5603AQGapPSruFey8Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1705633319795?e=1750291200&v=beta&t=6HcTMVMT9OqYv3TmLMWMUdZPsbPOlvuWjjZeTVLSHHY" 
+                src="https://media.licdn.com/dms/image/v2/D5603AQGapPSruFey8Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1705633319795?e=1757548800&v=beta&t=YBLn_00wi67tCWJoF2DhANL-R_ghh8PJkHXyGM-3Wt8" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />
