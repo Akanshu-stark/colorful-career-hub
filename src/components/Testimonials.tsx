@@ -10,14 +10,14 @@ const testimonials = [
     id: 1,
     name: "Sachin Karale",
     role: "Associate Manager at Accenture Solutions Ltd.",
-    image: "https://media.licdn.com/dms/image/v2/C4E03AQGGwiqEXgS5pw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1638386566221?e=1750291200&v=beta&t=z3xei7utG2uFQGzp5v2rWm9T7xMfr0MqYB1gGPgnWc0",
+    image: "https://media.licdn.com/dms/image/v2/C4E03AQGGwiqEXgS5pw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1638386566221?e=1757548800&v=beta&t=hKwyhZvD7sH2WgfixUoWWg_BCvIGUdZbV2WZeWuSpfk",
     text: "I've had the pleasure of working with this developer, and I'm consistently impressed by his technical skills and problem-solving abilities. He is not only a talented coder but also a great communicator who understands business needs and translates them into effective solutions."
   },
   {
     id: 2,
     name: "Praveen Chaudhary",
     role: "Senior Software Engineer at Info Edge India Ltd.",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQG9e4UBpmRiLA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1693154854633?e=1750291200&v=beta&t=EMsuzXMxYbpxqKVp0NzPMSMPhHlRqgvY2udnaXEFjio",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQG9e4UBpmRiLA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1693154854633?e=1757548800&v=beta&t=2PzXoXfpOLncR40R2l31O9MNQMTfes02uqWegqpJkso",
     text: "Highly Recommend Akanshu Rana! A top-notch frontend developer with exceptional ML skills. His ability to seamlessly merge ML concepts with frontend projects is impressive. A collaborative team player who delivers high-quality work. An invaluable asset to any team. Hire Akanshu with confidence!"
   }
 ];
