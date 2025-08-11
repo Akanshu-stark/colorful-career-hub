@@ -17,15 +17,19 @@ const experiences = [
     period: "Nov 2024 - Present",
     location: "Chandigarh, India ",
     description: [
-      "Designed and implemented ETL pipelines using Apache Spark and Azure Data Factory, improving data processing efficiency by 30%.",
-      "Developed data models and optimized SQL queries for large datasets, reducing query execution time by 25%.",
-      "Performed extensive data cleaning on datasets using Azure Data Factory by using different operations, including modifying specific values, handling missing values, and standardizing formats and many more.",
-      "Transformation the data into required format and applied business conditions and generated the output file to share the data using Pyspark and SQL.",
-      "Designed and automated the pipeline to run at scheduled times, ensuring seamless data processing without manual intervention.",
-      "Integrated Azure Databricks notebooks using PySpark, SQL to perform complex analysis using Azure Data Factory.",
-      "Collaborated with cross-functional teams to gather requirements and deliver data solutions that meet business needs.",
+      "Designed, developed, and optimized large-scale data pipelines using Azure Data Factory (ADF), Azure Databricks, and PySpark to process and analyze structured and semi-structured datasets from sources including Nielsen DB.",
+      "Developed and delivered Key Performance Indicators (KPIs) to the simulation team, enabling their integration into UI screens for real-time visualization and monitoring.",
+      "Designed and implemented automated data loading jobs in Azure Databricks, streamlining the ingestion and transformation of large datasets from multiple sources, and ensuring scheduled, error-free population of data lakes for downstream analytics.",
+      "Developed robust deployment processes for migrating data engineering solutions from development to production environments, ensuring reliability, scalability, and minimal downtime during releases. Coordinated with DevOps teams to implement best practices for CI/CD and version control.",
+      "Collaborated with cross-functional stakeholders to gather technical requirements, perform data mapping, implement business logic, and prepare robust data models for analytics and reporting layers.",
+      "Created and maintained consumption-ready datasets, views, and blocks for the Power BI team, ensuring accurate and timely availability of data for decision-making.",
+      "Conducted code reviews, identified automation opportunities, and implemented performance optimizations while adhering to coding standards and best practices.",
+      "Partnered with business teams to design and execute pricing strategy analysis, market data evaluation, and promotional optimization initiatives to drive revenue growth and profitability.",
+      "Provided UAT support and production troubleshooting, ensuring smooth execution of business deliverables within scope and timelines.",
+      "Proactively identified risks, issues, and challenges, communicating them promptly to management and aligning on Agile workflow and mitigation strategies using MoSCoW and SMART prioritization techniques.",
+      "Ensured compliance with project scope, timelines, and quality parameters while working effectively under high-priority business scenarios.",
     ],
-    technologies: ["Spark", "SQL", "Python", "Azure Data Factory", "Azure Databricks"]
+    technologies: ["PySpark", "SQL", "Python","Azure Databricks", "Azure Data Factory"]
   },
   {
     id: "company2",
